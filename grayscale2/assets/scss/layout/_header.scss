@@ -1,0 +1,47 @@
+header {
+  max-width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    justify-content: center;
+    gap: 10px;
+    h1 {
+      font-size: 104px;
+      text-transform: uppercase;
+      letter-spacing: 7px;
+      background: linear-gradient(
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0)
+      );
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }
+    p {
+      text-align: center;
+      max-width: 480px;
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.5) !important;
+    }
+    .header-button {
+      margin-top: 35px;
+      letter-spacing: 3px;
+      background-color: #64a19d;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #ffff;
+      padding: 20px 32px;
+      border: none;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+  }
+}
